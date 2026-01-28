@@ -11,15 +11,21 @@
         h1,h2,h3,p,a{
             color: #ffffff;
         }
+        ol{
+            color: #ffffff;
+        }
+        strong{
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Urban Taste</h1>
-        <img src="./images/Inst.png" alt="Inst">
-        <img src="./images/Facebook.png" alt="Facebook">
-        <img src="./images/TikTok.png" alt="TikTok">
-        <img src="./images/YouTube.png" alt="Youtube">
+        <a href="https://www.instagram.com/"><img src="./images/Inst.png" alt="Inst"></a>
+        <a href="https://www.facebook.com/"><img src="./images/Facebook.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/"><img src="./images/TikTok.png" alt="TikTok"></a>
+        <a href="https://www.youtube.com/"><img src="./images/YouTube.png" alt="Youtube"></a>
         <nav>
             <ul>
                 <li><a href="#home">Main</a></li>
@@ -52,19 +58,93 @@
             <h3>Піца, суші та матча —сучасна їжа для щоденного вибору</h3>
             <h1>Улюблена їжа в одному місці</h1>
             <p>Свіжі інгредієнти та зручне замовлення онлайн</p>
-            <button type="submit">Buy now</button>
+            <a class="button">Купити</a>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section id="about">
+            <h2>Про нас</h2>
+            <p>Urban Taste — це сервіс, який поєднує популярні страви різних кухонь.<br>
+Ми створили меню, у якому кожен може знайти щось для себе: ситне, легке або освіжаюче.
+            </p>
+
+        </section>
+        <section id="trainers">
+            <h2>Наш продукт</h2>
+            <article>
+                <img src="./images/pizza.jpg" width="250" height="250" alt="pizza">
+                <h3>Піца</h3>
+                <p>Основні інгредієнти:
+                    <ol>
+                        <li>Тісто</li>
+                        <li>Томатний соус</li>
+                        <li>Сир моцарела</li>
+                        <li>Овочі або м’ясо</li>
+                        <li>Оливкова олія</li>
+                        <li>Спеції</li>
+                    </ol>
+                    <strong>150 грн</strong>
+                </p>
+                <button type="submit">Купити</button>
+            </article>
+            <article>
+                <img src="./images/sushi.png" width="250" height="250" alt="sushi1">
+                <h3>Суші</h3>
+                <p>Основні інгредієнти:
+                    <ol>
+                        <li>Рис</li>
+                        <li>Риба/авокадо</li>
+                        <li>Норі</li>
+                        <li>Огірок</li>
+                        <li>Сир</li>
+                        <li>Соєвий соус</li>
+                    </ol>
+                    <strong>250 грн</strong>
+                </p>
+                <button type="submit">Купити</button>
+            </article>
+            <article>
+                <img src="./images/matcha.png" width="250" height="250" alt="matcha">
+                <h3>Матча</h3>
+                <p>Основні інгредієнти:
+                    <ol>
+                        <li>Порошок матча</li>
+                        <li>Вода або молоко</li>
+                        <li>Рослинне молоко</li>
+                        <li>Мед або сироп</li>
+                        <li>Лід (для холодних напоїв)</li>
+                    </ol>
+                    <strong>400 грн</strong>
+                </p>
+                <button type="submit">Купити</button>
+            </article>
+        </section>
+        <section id="app">
+            <h2>Завантажити додаток</h2>
+            <ol>
+                <li>Оберіть страви з меню</li>
+
+                <li>Додайте до кошика</li>
+
+                <li>Оформіть замовлення онлайн</li>
+
+                <li>Отримайте доставку</li>
+            </ol>
+            <img src="./images/CTA.png" alt="Завантажити">
+        </section>
         <section>
-            <h2>Have Question in Mind?<br> Let us help you</h2>
+            <h2>Ваш<br> Feedback</h2>
             <form>
-                <input placeholder="Enter your question">
-                <button type="submit">Send</button>
+                <input placeholder="Введіть запитання">
+                <button type="submit">Відправити</button>
             </form>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Urban Taste © 2026<br>
+ • Соціальні мережі: </p>
+        <a href="https://www.instagram.com/"><img src="./images/Inst.png" alt="Inst"></a>
+        <a href="https://www.facebook.com/"><img src="./images/Facebook.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/"><img src="./images/TikTok.png" alt="TikTok"></a>
+        <a href="https://www.youtube.com/"><img src="./images/YouTube.png" alt="Youtube"></a>
+    </footer>
 </body>
 </html>
